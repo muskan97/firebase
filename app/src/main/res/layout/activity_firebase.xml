@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hp.hp.firebase.firebase">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:id="@+id/txt_2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/email_id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:background="@null"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="250dp"
+        android:id="@+id/password_id"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Signup"
+        android:layout_marginTop="350dp"
+        android:id="@+id/sign_up"
+        android:onClick="start"/>
+
+</RelativeLayout>
